@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto/android">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_month"
+        android:title="Drucken"/>
+    <item
+        android:id="@+id/action_contacts"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Pflege Team eintragen"/>
+    <item
+        android:id="@+id/action_services"
+        android:icon="@android:drawable/btn_star"
+        android:title="Dienste eintragen"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Reset"/>
+    <item
+        android:id="@+id/action_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Hilfe"/>
+
+</menu>

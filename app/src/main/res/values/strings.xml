@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Freya</string>
+    <string-array name="spinner_list_item_array">
+        <item>Standard</item>
+        <item>Urlaub/Nachtausgleich</item>
+    </string-array>
+</resources>

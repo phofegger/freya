@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_main"
+    android:orientation="horizontal"
+    android:layout_width="100dp"
+    android:padding="3dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/contact_inner_view"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal"
+        android:background="@drawable/contact_design">
+
+        <TextView
+            android:id="@+id/contact_grid_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"/>
+
+        <TextView
+            android:id="@+id/contact_grid_wh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact_grid_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <ProgressBar
+            android:id="@+id/contact_grid_val"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

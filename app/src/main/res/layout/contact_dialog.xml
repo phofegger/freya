@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Name: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/contact_dialog_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vorname Nachname"
+            android:maxLines="1"
+            android:inputType="textNoSuggestions"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Arbeitsstunden/Woche: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/contact_dialog_wh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="40.0"
+            android:inputType="numberDecimal"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+</LinearLayout>
