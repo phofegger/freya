@@ -1,6 +1,31 @@
-## TODO
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**, @mentions, #1234 refs
-- [ ] incomplete
-- [x] completed
+## TODO/Bugs
+- [x] DB Funktionen für Days u. Dienst
+- [ ] sort nach NN (auch in edit?)
+- [ ] month longclick delete (maybe Icon?) 
+- [x] erstelle month -> jump to intent
+- [ ] Horizontal/Vertikal View (XML)
+- [ ] Single Day View
+- [ ] introduce changedd variable to minimize disk writing
+- [ ] Use best mask für Dienste
+- [ ] Is DBHelper class optimized?
+- [ ] Service -> add disabled instead of delete?
+- [ ] Good Design View für Days/Contacts in Edit, White on Grey
+- [ ] Performance
+- [ ] Name hat Score
+- [ ] Contact Edit: make item clicked focus and alter and last + PDF
+- [ ] Edit View: additional configurations/Urlaub/Export/Import
+- [ ] Month-Edit: Top margin actionbar -> add size + padding
+- [ ] Drag & Drop
+- [ ] Name/Monat Felder zu klein -> Nachname bzw Farbe
+- [ ] Toast/Snackbar Message/Undo Funktion
+- [ ] Horizontal/Vertical Error in Fragments?
+- [ ] Month Edit: memorize mask
+- [ ] final cleanup of code -> use conventions
+- [ ] Configure Dienste in Tab or ? Sonderdienste automatically add
+- [x] Monate löschen (alles -> cascade)
+- [ ] DBHelper Singleton?
+- [ ] Monat eindeutig?
+- [ ] Feiertage/Stunden/~~Legende~~?
+- [ ] Divider between Contact/Day -> Distinction
+- [ ] Day/Person Grün/Stärker wenn voll (Either pattern or >)
+- [ ] Dialog Fenster ("Color", Material)
